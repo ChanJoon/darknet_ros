@@ -11,6 +11,10 @@
 
 #include "image.h"
 #include "opencv2/opencv.hpp"
+<<<<<<< HEAD
+#include "opencv2/core/types_c.h"
+=======
+>>>>>>> 1027a2806712918eea967da02f12c3d8c95af9db
 
 static float get_pixel(image m, int x, int y, int c);
 image** load_alphabet_with_file(char* datafile);
