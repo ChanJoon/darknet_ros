@@ -37,6 +37,7 @@
 #include <darknet_ros_msgs/BoundingBoxes.h>
 #include <darknet_ros_msgs/CheckForObjectsAction.h>
 #include <darknet_ros_msgs/ObjectCount.h>
+// #include "../../../darknet/src/blas.h"
 
 // Darknet.
 #ifdef GPU
@@ -54,10 +55,7 @@ extern "C" {
 #include "parser.h"
 #include "region_layer.h"
 #include "utils.h"
-<<<<<<< HEAD
 #include "blas.h"
-=======
->>>>>>> 1027a2806712918eea967da02f12c3d8c95af9db
 }
 
 // Image interface.
@@ -65,11 +63,7 @@ extern "C" {
 
 extern "C" cv::Mat image_to_mat(image im);
 extern "C" image mat_to_image(cv::Mat m);
-<<<<<<< HEAD
 extern "C" void show_image(image p, const char* name);
-=======
-extern "C" int show_image(image p, const char* name, int ms);
->>>>>>> 1027a2806712918eea967da02f12c3d8c95af9db
 
 namespace darknet_ros {
 
