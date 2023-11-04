@@ -1,3 +1,12 @@
+**This is forked version of Original repository**
+- To use ROS with YOLOv4 model (Original: v3)
+- Compatible with OpenCV 4 + CUDA 12.2
+
+_Acknowledgement_
+- https://github.com/tom13133/darknet_ros (YOLOv4 + OpenCV 3)
+- https://github.com/Tossy0423/darknet_ros (YOLOv4 but not latest)
+- https://github.com/leggedrobotics/darknet_ros/issues/329#issuecomment-863119220
+- 
 # YOLO ROS: Real-Time Object Detection for ROS
 
 ## Overview
